@@ -24,14 +24,14 @@
   width: 50px;
 }
 
-.green-box {
+.brown-box {
   position: absolute;
   top: 50%; /* 상자의 위치 조절을 위해 백분율 값을 사용할 수 있습니다. */
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 80%; /* 상자의 너비 */
-  height: 40%; /* 상자의 높이 */
-  background-color: #009373; /* 초록색 배경 설정 */
+  width: 80vw; /* 화면 너비의 80% */
+  height: 50vh;
+  background-color: #A9907E; /* 갈색배경 */
 }
 
 .emoji-instagram{
@@ -53,13 +53,14 @@
 } */
 
 .back-ima{
-  height: 500px;
   background-image: url(./image/back-ima.jpg);
   background-position: center;
   background-size: cover;
   position: 'relative'; 
   color: 'white'; 
   padding: '20px';
+  width: 100%; /* 부모 요소의 너비를 100%로 설정합니다. */
+  height: 79vh; /* 부모 요소의 높이를 화면 높이의 100%로 설정합니다. */  
 }
 
 .App {
